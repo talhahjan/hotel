@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+  <title>Dashtreme - Multipurpose Bootstrap4 Admin Template</title>
+  <!--favicon-->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!-- simplebar CSS-->
+  <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet"/>
+  <!-- Bootstrap core CSS-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- animate CSS-->
+  <link href="assets/css/animate.css" rel="stylesheet" type="text/css"/>
+  <!-- Icons CSS-->
+  <link href="assets/css/icons.css" rel="stylesheet" type="text/css"/>
+  <!-- Sidebar CSS-->
+  <link href="assets/css/sidebar-menu.css" rel="stylesheet"/>
+  <!-- Custom Style-->
+  <link href="assets/css/app-style.css" rel="stylesheet"/>
+  <!-- skins CSS-->
+  <link href="assets/css/skins.css" rel="stylesheet"/>
+<!--Data Tables -->
+<link href="assets/plugins/bootstrap-datatable/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+<link href="assets/plugins/bootstrap-datatable/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+<style>
+</style>
+</head>
+
+<body>
+
+<!-- start loader -->
+   <div id="pageloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner" ><div class="loader"></div></div></div></div>
+   <!-- end loader -->
+
+<!-- Start wrapper-->
+ <div id="wrapper">
+
+ <!--Start sidebar-wrapper-->
+   <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
+     <div class="brand-logo">
+      <a href="index.html">
+       <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+       <h5 class="logo-text">Mariaggis</h5>
+     </a>
+   </div>
+   <ul class="sidebar-menu">
+
+
+
+    <li><a href="index.html" class="waves-effect"><i class="zmdi zmdi-view-dashboard text-primary"></i> <span>Dashboard</span></a></li>
+    <li><a href="room.html" class="waves-effect active"><i class="fa fa-key text-primary"></i> <span>Rooms</span></a></li>
+    <li><a href="review.html" class="waves-effect"><i class="fa fa-comment text-primary"></i> <span>Review</span></a></li>
+    <li><a href="guest.html" class="waves-effect"><i class="fa fa-user text-primary"></i> <span>Guest</span></a></li>
+   
+
+
+
+      <li class="sidebar-header">LABELS</li>
+      <li><a href="javaScript:void();" class="waves-effect"><i class="zmdi zmdi-coffee text-danger"></i> <span>Important</span></a></li>
+      <li><a href="javaScript:void();" class="waves-effect"><i class="zmdi zmdi-chart-donut text-success"></i> <span>Warning</span></a></li>
+      <li><a href="javaScript:void();" class="waves-effect"><i class="zmdi zmdi-share text-info"></i> <span>Information</span></a></li>
+    </ul>
+   
+   </div>
+   <!--End sidebar-wrapper-->
+
+<!--Start topbar header-->
+<header class="topbar-nav">
+ <nav id="header-setting" class="navbar navbar-expand fixed-top">
+  <ul class="navbar-nav mr-auto align-items-center">
+    <li class="nav-item">
+      <a class="nav-link toggle-menu" href="javascript:void();">
+       <i class="icon-menu menu-icon"></i>
+     </a>
+    </li>
+    <li class="nav-item">
+      <h6>Room List</h5>
+    </li>
+  </ul>
+     
+  <ul class="navbar-nav align-items-center right-nav-link">
+    <li class="nav-item dropdown-lg">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
+      <i class="fa fa-envelope-open-o"></i><span class="badge badge-primary badge-up">12</span></a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <ul class="list-group list-group-flush">
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+          You have 12 new messages
+          <span class="badge badge-primary">12</span>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="https://via.placeholder.com/110x110" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">Jhon Deo</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            <small>Today, 4:10 PM</small>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="https://via.placeholder.com/110x110" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">Sara Jen</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            <small>Yesterday, 8:30 AM</small>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="https://via.placeholder.com/110x110" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">Dannish Josh</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+             <small>5/11/2018, 2:50 PM</small>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="https://via.placeholder.com/110x110" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">Katrina Mccoy</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet.</p>
+            <small>1/11/2018, 2:50 PM</small>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item text-center"><a href="javaScript:void();">See All Messages</a></li>
+        </ul>
+        </div>
+    </li>
+    <li class="nav-item dropdown-lg">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
+    <i class="fa fa-bell-o"></i><span class="badge badge-info badge-up">14</span></a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+          You have 14 Notifications
+          <span class="badge badge-info">14</span>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <i class="zmdi zmdi-accounts fa-2x mr-3 text-info"></i>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">New Registered Users</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <i class="zmdi zmdi-coffee fa-2x mr-3 text-warning"></i>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">New Received Orders</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item">
+          <a href="javaScript:void();">
+           <div class="media">
+             <i class="zmdi zmdi-notifications-active fa-2x mr-3 text-danger"></i>
+            <div class="media-body">
+            <h6 class="mt-0 msg-title">New Updates</h6>
+            <p class="msg-info">Lorem ipsum dolor sit amet...</p>
+            </div>
+          </div>
+          </a>
+          </li>
+          <li class="list-group-item text-center"><a href="javaScript:void();">See All Notifications</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item language">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();"><i class="fa fa-flag"></i></a>
+      <ul class="dropdown-menu dropdown-menu-right">
+          <li class="dropdown-item"> <i class="flag-icon flag-icon-gb mr-2"></i> English</li>
+          <li class="dropdown-item"> <i class="flag-icon flag-icon-fr mr-2"></i> French</li>
+          <li class="dropdown-item"> <i class="flag-icon flag-icon-cn mr-2"></i> Chinese</li>
+          <li class="dropdown-item"> <i class="flag-icon flag-icon-de mr-2"></i> German</li>
+        </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
+        <span class="user-profile"><img src="https://via.placeholder.com/110x110" class="img-circle" alt="user avatar"></span>
+      </a>
+      <ul class="dropdown-menu dropdown-menu-right">
+       <li class="dropdown-item user-details">
+        <a href="javaScript:void();">
+           <div class="media">
+             <div class="avatar"><img class="align-self-start mr-3" src="https://via.placeholder.com/110x110" alt="user avatar"></div>
+            <div class="media-body">
+            <h6 class="mt-2 user-title">Sarajhon Mccoy</h6>
+            <p class="user-subtitle">mccoy@example.com</p>
+            </div>
+           </div>
+          </a>
+        </li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><i class="icon-envelope mr-2"></i> Inbox</li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><i class="icon-wallet mr-2"></i> Account</li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><i class="icon-settings mr-2"></i> Setting</li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><i class="icon-power mr-2"></i> Logout</li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</header>
+<!--End topbar header-->
+
+<div class="clearfix"></div>
+	
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+		  <div style="min-height:600px"> <!--Please remove the height before using this page-->
+
+
+
+
+<!-- btn row start -->
+
+<div class="row">
+
+  <div class="col-md col-lg-6">
+    <div class="btn-group">
+      <button type="button" class="btn btn-custom waves-effect waves-light">All Rooms (254)</button>
+      <button type="button" class="btn btn-custom btn-current waves-effect waves-light">Available Room (12)</button>
+      <button type="button" class="btn btn-custom waves-effect waves-light">Booked (45)</button>
+    </div>
+  </div>
+
+
+  <div class="col-md mr-auto">
+    <div class="d-flex justify-content-end">
+      <div class="search-card d-none">
+        <input type="text" placeholder="search here">
+      <button class="btn-search"><i class="fa fa-search"></i></button>
+      </div>
+        
+      
+      <div class="px-2 align-self-center">
+        <button class="btn btn-outline-primary p-2"><i class="fa fa-book"></i><span class="pl-2">Check Schedule</span></button>
+      </div>
+      
+      
+    </div>
+
+
+
+
+  </div>
+
+</div>
+
+
+
+<!-- btn row end  -->
+
+
+
+<!-- data table start -->
+
+
+<div class="row pt-2">
+
+  <table id="default-datatable" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+              <input type="checkbox" class="mr-1" checked/>
+          Guest 
+            </th>
+            <th>date Order</th>
+            <th>check in</th>
+            <th>Check out</th>
+            <th>special request</th>
+            <th>Room Type</th>
+            <th>staus</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+
+       
+<!-- single room start -->
+
+<tr>
+  <td>
+    <div class="media">
+<input type="checkbox" class="d-inline-block my-auto mr-2" checked>
+
+      <img src="assets/images/gallery/avatar-icon.png" height="50" width="50" alt="user avatar" class="img-thumbnail rounded-circle">
+    <div class="media-body ml-3 my-auto">
+  
+  <div>      <h6 class="mb-0"> <a href="#" class="small"> #GS-234</a> </h6>
+  </div>  
+  
+  <div>      <h6 class="mb-0">Sakeena haneef</h6>
+  </div>
+  
+  
+    </div>
+  
+  
+  
+  </div>  
+  </td>
+ 
+  <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+   <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+
+   <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+
+
+
+   <td class="align-middle">
+<a href="#"><small>view notes </small></a>
+
+   </td>
+
+   <td class="align-middle text-muted">
+queen A-2321
+<br><small>Room no . 0012</small>
+   </td>
+
+
+
+      <td class="align-middle">
+        <button class="btn btn-outline-info btn-sm btn-round">pending</button>
+    <div class="dropdown d-inline-block pl-4">
+      <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+       <i class="icon-options"></i>
+      </a>
+       <div class="dropdown-menu dropdown-menu-right">
+       <a class="dropdown-item" href="javascript:void();">Action</a>
+       <a class="dropdown-item" href="javascript:void();">Another action</a>
+       <a class="dropdown-item" href="javascript:void();">Something else here</a>
+       <div class="dropdown-divider"></div>
+       <a class="dropdown-item" href="javascript:void();">Separated link</a>
+       </div>
+     </div>
+
+
+  </td>
+
+</tr>
+<!-- single room end  -->
+
+
+
+
+<!-- single room start -->
+
+<tr>
+  <td>
+    <div class="media">
+<input type="checkbox" class="d-inline-block my-auto mr-2" checked>
+
+      <img src="assets/images/gallery/avatar-icon.png" height="50" width="50" alt="user avatar" class="img-thumbnail rounded-circle">
+    <div class="media-body ml-3 my-auto">
+  
+  <div>      <h6 class="mb-0"> <a href="#" class="small"> #GS-234</a> </h6>
+  </div>  
+  
+  <div>      <h6 class="mb-0">Anees Qureshi</h6>
+  </div>
+  
+  
+    </div>
+  
+  
+  
+  </div>  
+  </td>
+ 
+  <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+   <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+
+   <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+
+
+
+   <td class="align-middle">
+<a href="#"><small>view notes </small></a>
+
+   </td>
+
+   <td class="align-middle text-muted">
+queen A-2321
+<br><small>Room no . 0012</small>
+   </td>
+
+
+
+      <td class="align-middle">
+        <button class="btn btn-outline-success btn-sm btn-round">booked</button>
+    <div class="dropdown d-inline-block pl-4">
+      <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+       <i class="icon-options"></i>
+      </a>
+       <div class="dropdown-menu dropdown-menu-right">
+       <a class="dropdown-item" href="javascript:void();">Action</a>
+       <a class="dropdown-item" href="javascript:void();">Another action</a>
+       <a class="dropdown-item" href="javascript:void();">Something else here</a>
+       <div class="dropdown-divider"></div>
+       <a class="dropdown-item" href="javascript:void();">Separated link</a>
+       </div>
+     </div>
+
+
+  </td>
+
+</tr>
+<!-- single room end  -->
+
+
+
+
+
+<!-- single room start -->
+
+<tr>
+  <td>
+    <div class="media">
+<input type="checkbox" class="d-inline-block my-auto mr-2" checked>
+
+      <img src="assets/images/gallery/avatar-icon.png" height="50" width="50" alt="user avatar" class="img-thumbnail rounded-circle">
+    <div class="media-body ml-3 my-auto">
+  
+  <div>      <h6 class="mb-0"> <a href="#" class="small"> #GS-234</a> </h6>
+  </div>  
+  
+  <div>      <h6 class="mb-0">khalid Baloch</h6>
+  </div>
+  
+  
+    </div>
+  
+  
+  
+  </div>  
+  </td>
+ 
+  <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+   <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+
+   <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+
+
+
+   <td class="align-middle">
+<a href="#"><small>view notes </small></a>
+
+   </td>
+
+   <td class="align-middle text-muted">
+queen A-2321
+<br><small>Room no . 0012</small>
+   </td>
+
+
+
+      <td class="align-middle">
+        <button class="btn btn-outline-danger btn-sm btn-round">cancelled</button>
+    <div class="dropdown d-inline-block pl-4">
+      <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+       <i class="icon-options"></i>
+      </a>
+       <div class="dropdown-menu dropdown-menu-right">
+       <a class="dropdown-item" href="javascript:void();">Action</a>
+       <a class="dropdown-item" href="javascript:void();">Another action</a>
+       <a class="dropdown-item" href="javascript:void();">Something else here</a>
+       <div class="dropdown-divider"></div>
+       <a class="dropdown-item" href="javascript:void();">Separated link</a>
+       </div>
+     </div>
+
+
+  </td>
+
+</tr>
+<!-- single room end  -->
+
+
+
+<!-- single room start -->
+
+<tr>
+  <td>
+    <div class="media">
+<input type="checkbox" class="d-inline-block my-auto mr-2" checked>
+
+      <img src="assets/images/gallery/avatar-icon.png" height="50" width="50" alt="user avatar" class="img-thumbnail rounded-circle">
+    <div class="media-body ml-3 my-auto">
+  
+  <div>      <h6 class="mb-0"> <a href="#" class="small"> #GS-234</a> </h6>
+  </div>  
+  
+  <div>      <h6 class="mb-0">Abdul basit</h6>
+  </div>
+  
+  
+    </div>
+  
+  
+  
+  </div>  
+  </td>
+ 
+  <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+   <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+
+   <td class="align-middle text-muted">
+    sunday, october 24th, 2020
+    <br>09:30pm</br>
+   </td>
+
+
+
+   <td class="align-middle">
+<small>no request </small>
+
+   </td>
+
+   <td class="align-middle text-muted">
+queen A-2321
+<br><small>Room no . 0012</small>
+   </td>
+
+
+
+      <td class="align-middle">
+        <button class="btn btn-outline-dark btn-sm btn-round">refund</button>
+    <div class="dropdown d-inline-block pl-4">
+      <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+       <i class="icon-options"></i>
+      </a>
+       <div class="dropdown-menu dropdown-menu-right">
+       <a class="dropdown-item" href="javascript:void();">Action</a>
+       <a class="dropdown-item" href="javascript:void();">Another action</a>
+       <a class="dropdown-item" href="javascript:void();">Something else here</a>
+       <div class="dropdown-divider"></div>
+       <a class="dropdown-item" href="javascript:void();">Separated link</a>
+       </div>
+     </div>
+
+
+  </td>
+
+</tr>
+<!-- single room end  -->
+
+
+
+
+
+
+    </tfoot>
+</table>
+
+</div>
+
+
+<!-- data table end  -->
+
+
+
+		  </div>
+        </div>
+      </div>
+<!--start overlay-->
+	  <div class="overlay toggle-menu"></div>
+	<!--end overlay-->
+    </div>
+    <!-- End container-fluid-->
+
+   </div><!--End content-wrapper-->
+   <!--Start Back To Top Button-->
+    <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+    <!--End Back To Top Button-->
+	
+	<!--Start footer-->
+	<footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          Copyright © 2019 Dashtreme Admin
+        </div>
+      </div>
+    </footer>
+	<!--End footer-->
+	
+	<!--start color switcher-->
+   <div class="right-sidebar">
+    <div class="switcher-icon">
+      <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
+    </div>
+    <div class="right-sidebar-content">
+	
+	
+	 <p class="mb-0">Header Colors</p>
+      <hr>
+	  
+	  <div class="mb-3">
+	    <button type="button" id="default-header" class="btn btn-outline-primary">Default Header</button>
+	  </div>
+      
+      <ul class="switcher">
+        <li id="header1"></li>
+        <li id="header2"></li>
+        <li id="header3"></li>
+        <li id="header4"></li>
+        <li id="header5"></li>
+        <li id="header6"></li>
+      </ul>
+
+      <p class="mb-0">Sidebar Colors</p>
+      <hr>
+	  
+      <div class="mb-3">
+	    <button type="button" id="default-sidebar" class="btn btn-outline-primary">Default Header</button>
+	  </div>
+	  
+      <ul class="switcher">
+        <li id="theme1"></li>
+        <li id="theme2"></li>
+        <li id="theme3"></li>
+        <li id="theme4"></li>
+        <li id="theme5"></li>
+        <li id="theme6"></li>
+      </ul>
+      
+     </div>
+   </div>
+  <!--end color switcher-->
+	
+  </div><!--End wrapper-->
+  
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+	
+  <!-- simplebar js -->
+  <script src="assets/plugins/simplebar/js/simplebar.js"></script>
+  <!-- sidebar-menu js -->
+  <script src="assets/js/sidebar-menu.js"></script>
+  
+  <!-- Custom scripts -->
+  <script src="assets/js/app-script.js"></script>
+ <!--Data Tables js-->
+ <script src="assets/plugins/bootstrap-datatable/js/jquery.dataTables.min.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/dataTables.bootstrap4.min.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/dataTables.buttons.min.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/buttons.bootstrap4.min.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/jszip.min.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/pdfmake.min.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/vfs_fonts.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/buttons.html5.min.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/buttons.print.min.js"></script>
+ <script src="assets/plugins/bootstrap-datatable/js/buttons.colVis.min.js"></script>
+
+   <script>
+    $(document).ready(function() {
+     //Default data table
+      $('#default-datatable').DataTable();
+
+    });
+
+   </script>
+</body>
+</html>
